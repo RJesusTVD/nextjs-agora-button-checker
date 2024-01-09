@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 button.agora-btn:focus {
-  @apply outline outline-2 -outline-offset-2 outline-success-700;
+  @apply outline outline-2 -outline-offset-2 outline-focus;
 }
 
 button.agora-btn:focus-visible {
-  @apply outline outline-2 -outline-offset-2 outline-danger-700;
+  @apply outline outline-2 -outline-offset-2 outline-focus;
 }
