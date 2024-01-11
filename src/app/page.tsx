@@ -14,6 +14,9 @@ export default function Home() {
         <li>
           <Link href={"/accordion"}>Accordion Tests</Link>
         </li>
+        <li>
+          <Link href={"/anchor"}>Anchor Tests</Link>
+        </li>
       </List>
     </div>
   );
