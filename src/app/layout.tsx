@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
-import SkipNavigationWrapper from "@/components/skip-navigation-wrapper";
 import "@ama-pt/agora-design-system/dist/index.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -20,7 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <SkipNavigationWrapper />
         <main id="main">{children}</main>
       </body>
     </html>
