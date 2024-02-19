@@ -1,7 +1,8 @@
+import "@ama-pt/agora-design-system/dist/index.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { BackToHomeComponent } from "./back-home";
 import "./globals.css";
-import "@ama-pt/agora-design-system/dist/index.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <BackToHomeComponent />
         <main id="main">{children}</main>
       </body>
     </html>

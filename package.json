@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ama-pt/agora-design-system": "^0.11.5",
+    "@ama-pt/agora-design-system": "^0.12.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
